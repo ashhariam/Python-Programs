@@ -1,12 +1,11 @@
 import random
 
+min_val = int(input("Enter the minimum value of the die: "))
+max_val = int(input("Enter the maximum value of the die: "))
 
-    min_val = int(input("Enter the minimum value of the die: "))
-    max_val = int(input("Enter the maximum value of the die: "))
-
-    print("Input valid program will revert to defaults:")
-    min_val = 1
-    max_val = 6
+print("Input valid program will revert to defaults:")
+min_val = 1
+max_val = 6
 again = True
 
 while again:
