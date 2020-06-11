@@ -1,11 +1,10 @@
 import random
 
-try:
+
     min_val = int(input("Enter the minimum value of the die: "))
     max_val = int(input("Enter the maximum value of the die: "))
 
-except:
-    print("Input valid program will revert to defsults:")
+    print("Input valid program will revert to defaults:")
     min_val = 1
     max_val = 6
 again = True
